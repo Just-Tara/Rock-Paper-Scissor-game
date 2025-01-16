@@ -82,7 +82,6 @@ score = {
         `You
           <img src="images/${playerMove}-emoji.png"
              alt="rock-image" class="move-icon">`
-           
          `<img src="images/${computerMove}-emoji.png" 
             alt="rock-image" class="move-icon">
            Computer`;
