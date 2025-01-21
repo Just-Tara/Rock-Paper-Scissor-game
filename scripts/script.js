@@ -23,7 +23,7 @@ score = {
     const computerMove = pickComputerMove();
     let result = '';
     
-     if (playerMove === 'Scissors') {
+     if (playerMove === 'scissors') {
 
         if (computerMove === 'scissors') {
             result = 'Tie';
@@ -40,24 +40,24 @@ score = {
 
     else if(playerMove === 'paper'){
         
-        if  (computerMove === 'Paper') {
+        if  (computerMove === 'paper') {
                 result = 'Tie';
         }
-        else if(computerMove ==='Rock') {
+        else if(computerMove ==='rock') {
             result = 'You win good job'
         }
-        else if ( computerMove === 'Scissors') {
+        else if ( computerMove === 'scissors') {
         result = 'You lose better lock next time';
         }
         
     }else{
-        if (computerMove === 'Rock') {
+        if (computerMove === 'rock') {
                 result = 'Tie';
         }
-        else if(computerMove ==='Scissors') {
+        else if(computerMove ==='scissors') {
             result = 'You win good job'
         }
-        else if ( computerMove === 'Paper') {
+        else if ( computerMove === 'paper') {
            result = 'You lose better lock next time';
         }
     }
@@ -81,9 +81,9 @@ score = {
     .innerHTML =
     ` You
             <img src="images/${playerMove}-emoji.png"
-             class="move-icon">
+            alt="player-move-images" class="move-icon">
             <img src="images/${computerMove}-emoji.png" 
-             class="move-icon">
+             alt="computer-move-images" class="move-icon">
             Computer`;
 
     }
@@ -101,13 +101,13 @@ score = {
     const randomNumber = Math.random();
 
     if (randomNumber >= 0 && randomNumber < 1 / 3) {
-        computerMove = 'Rock';
+        computerMove = 'rock';
     }
     else if (randomNumber >= 1 / 3 && randomNumber < 2 / 3) {             
-            computerMove = 'Paper';
+            computerMove = 'paper';
     }
     else if(randomNumber >= 2 / 3 && randomNumber <= 1) {
-            computerMove = 'Scissors';
+            computerMove = 'scissors';
        
         }  
     return computerMove;
