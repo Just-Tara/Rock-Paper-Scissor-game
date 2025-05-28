@@ -1,25 +1,23 @@
-##Rock Paper Scissors Game
 
-####Description
+## *Rock Paper Scissors Game*
 
+#### *Description*
 A simple Rock Paper Scissors game where you pick an image (rock, paper, or scissors) and the computer generates its own choice.
 
-####Live Demo
+#### *Live Demo*
+(link unavailable)
 
-https://just-tara.github.io/Rock-Paper-Scissor-game/
-
-####Features
-
+#### *Features*
 - User can choose rock, paper, or scissors through images
 - Computer generates a random choice
 - Game determines the winner and displays the result
 
-####Technologies Used
+#### *Technologies Used*
+- HTML
+- CSS
+- JavaScript
 
-- [HTML, CSS, JAVASCRIPT]
-
-####How to Play
-
+#### *How to Play*
 1. Open the game in your browser
 2. Click on one of the images (rock, paper, or scissors)
 3. The computer will generate its choice and display the result
