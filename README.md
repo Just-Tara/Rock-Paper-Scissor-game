@@ -5,7 +5,7 @@
 A simple Rock Paper Scissors game where you pick an image (rock, paper, or scissors) and the computer generates its own choice.
 
 #### *Live Demo*
-(link unavailable)
+https://just-tara.github.io/Rock-Paper-Scissor-game/
 
 #### *Features*
 - User can choose rock, paper, or scissors through images
