@@ -1,6 +1,6 @@
-*Rock Paper Scissors Game*
+*Rock,Paper,Scissors Game*
 
-*Description*
+*Description
 
 A simple Rock Paper Scissors game where you pick an image (rock, paper, or scissors) and the computer generates its own choice.
 
